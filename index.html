@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Our Team | Company Name</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Meet Our Team</h1>
+            <p>We're a diverse group of passionate professionals dedicated to delivering exceptional results for our clients. Get to know the faces behind our success.</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="container">
+        <!-- Filter Controls (Bonus Feature) -->
+        <div class="filter-controls">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="leadership">Leadership</button>
+            <button class="filter-btn" data-filter="development">Development</button>
+            <button class="filter-btn" data-filter="design">Design</button>
+            <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+
+        <!-- Team Grid -->
+        <div class="team-grid">
+            <!-- Team Member 1 -->
+            <div class="team-member" data-category="leadership">
+                <img src="assets/WhatsApp Image 2025-08-01 at 12.39.55_0e3ab204.jpg" alt="Shahid" class="member-image">
+                <div class="member-info">
+                    <h3>Shahid </h3>
+                    <p class="role">CEO & Founder</p>
+                    <p class="bio">Visionary leader with 15+ years of industry experience driving innovation and growth.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 2 -->
+            <div class="team-member" data-category="development">
+                <img src="assets/protfolio.jpg" alt="Syed israr" class="member-image">
+                <div class="member-info">
+                    <h3>Syed israr</h3>
+                    <p class="role">Lead Developer</p>
+                    <p class="bio">Full-stack wizard specializing in scalable architectures and cutting-edge technologies.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 3 -->
+            <div class="team-member" data-category="design">
+                <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=761&q=80" alt="Emma Rodriguez" class="member-image">
+                <div class="member-info">
+                    <h3>David </h3>
+                    <p class="role">Creative Director</p>
+                    <p class="bio">Award-winning designer with a passion for creating memorable brand experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-behance"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Member 4 -->
+            <div class="team-member" data-category="marketing">
+                <img src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="David Kim" class="member-image">
+                <div class="member-info">
+                    <h3>Bilal khan </h3>
+                    <p class="role">Marketing Director</p>
+                    <p class="bio">Data-driven strategist with expertise in digital marketing and brand positioning.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-medium"></i></a>
+                        <a href="#"><i class="fas fa-globe"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal Structure -->
+    <div class="modal" id="memberModal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-content">
+            <!-- Modal content will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+<script src="style.js"></script>
+<footer>
+    <div>© 2025 WebDesign Co. All rights reserved.</div>
+</footer>
+</body>
+</html>
